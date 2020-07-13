@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+.br{
+  visibility: collapse;
+}
 html{
   scroll-behavior: smooth;
 }
