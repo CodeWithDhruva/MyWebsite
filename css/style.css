@@ -271,9 +271,6 @@ html{
     padding: 0px;
   }
   .logo-phone{
-    justify-content: center;
-    align-items: center;
-    padding-left: 50%;
-    padding-right: 50%;
+    visibility: hidden;
   }
 }
