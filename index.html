@@ -44,8 +44,7 @@
             </div>
         </div>
     </section>
-    <br  class="br">
-    <hr >
+    <hr>
     <section class="section" id="about">
         <div class="paras">
             <p class="sectionTag text-big">The end of your search is here</p>
@@ -103,8 +102,8 @@
                 class="imgFluid">
         </div>
     </section>
-    <hr >
-    <section class="section" >
+    <hr>
+    <section class="section">
         <div class="paras">
             <p class="sectionTag text-big">Lets Grow together</p>
             <p class="sectionSubTag text-small">
@@ -129,19 +128,23 @@
         </div>
     </section>
 
-    <section class="contact" id="contact">
-        <h1 class="text-center">Contact Us</h1>
-        <div class="form">
-            <input type="text" class="form-input" name="name" id="name" class="input1" placeholder="  Enter Your Name">
-            <input type="number" class="form-input" name="phone" id="phone" class="input1"
-                placeholder="  Enter Your Phone">
-            <input type="email" class="form-input" name="email" id="email" class="input1"
-                placeholder="  Enter Your email">
-            <textarea name="text" class="form-input" id="text" cols="30" rows="10"
-                placeholder="Elaborate our oncerns"></textarea>
-            <button class="btn btn-dark" onclick=" alert('Your Responce has been Submitted.'), alert('Thankyou for visiting our website')" >Submit</button>
-        </div>
-    </section>
+    <form action="connect.php" method="post">
+        <section class="contact" id="contact">
+            <h1 class="text-center">Contact Us</h1>
+            <div class="form">
+                <input type="text" class="form-input" name="name" id="name" class="input1"
+                    placeholder="  Enter Your Name">
+                <input type="number" class="form-input" name="phone" id="phone" class="input1"
+                    placeholder="  Enter Your Phone">
+                <input type="email" class="form-input" name="email" id="email" class="input1"
+                    placeholder="  Enter Your email">
+                <textarea name="text" class="form-input" id="text" cols="30" rows="10"
+                    placeholder="Elaborate our oncerns"></textarea>
+                <button class="btn btn-dark"
+                    onclick=" alert('Your Responce has been Submitted.'), alert('Thankyou for visiting our website')">Submit</button>
+            </div>
+        </section>
+    </form>
     <footer class="background">
         <p class="text-footer">
             Copyright &copy; 2027 www.iEducate.com - All Rights Reserved
@@ -150,4 +153,5 @@
     <script src="js/resp.js">
     </script>
 </body>
+
 </html>

@@ -270,6 +270,9 @@ html{
   .form-input{
     width: fit-content;
   }
+  .text{
+    width: fit-content;
+  }
   .paras{
     padding: 0px;
   }
